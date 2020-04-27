@@ -87,3 +87,5 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 " Test to see if this the linked file instead of the existing file
+" Set auto indent
+set autoindent
