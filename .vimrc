@@ -89,3 +89,4 @@ set expandtab
 " Test to see if this the linked file instead of the existing file
 " Set auto indent
 set autoindent
+filetype plugin indent on
