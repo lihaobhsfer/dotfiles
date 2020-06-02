@@ -1,0 +1,8 @@
+--local u = hs.geometry.unitrect
+--layoutLaptop = {
+--  {'Google Chrome', nil, MACBOOK_MONITOR, u(0, 0, 1, 1), nil, nil},
+--  {'Mail', nil, MACBOOK_MONITOR, u(0, 0, 1, 1), nil, nil},
+--  {'Slack', nil, MACBOOK_MONITOR, u(0, 0, 1, 1), nil, nil},
+--  {'Spotify', nil, MACBOOK_MONITOR, u(0, 0, 1, 1), nil, nil},
+--  {'iTerm2', nil, MACBOOK_MONITOR, u(0, 0, 1, 1), nil, nil},
+--}

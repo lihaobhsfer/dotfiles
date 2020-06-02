@@ -1,0 +1,2 @@
+MACBOOK_MONITOR = 'Color LCD'
+
