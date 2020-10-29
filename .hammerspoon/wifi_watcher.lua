@@ -1,5 +1,5 @@
 wifiWatcher = nil
-homeSSID = "Fast Larry"
+homeSSID = "NETGEAR53-5G"
 lastSSID = hs.wifi.currentNetwork()
 
 function ssidChangedCallback()
@@ -7,7 +7,7 @@ function ssidChangedCallback()
 
     if newSSID == homeSSID and lastSSID ~= homeSSID then
         -- We just joined our home WiFi network
-        hs.alert.show("at home")
+        hs.alert.show("Home Wi-Fi connected.")
         hs.audiodevice.defaultOutputDevice():setVolume(25)
     elseif newSSID ~= homeSSID and lastSSID == homeSSID then
         -- We just departed our home WiFi network
