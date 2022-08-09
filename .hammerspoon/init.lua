@@ -1,7 +1,6 @@
 require('config')
 require('layout')
 require('window')
-require('finder_watcher')
 require('wifi_watcher')
 hs.application.enableSpotlightForNameSearches(true)
 local rescueWindows = require "rescuewindows"
