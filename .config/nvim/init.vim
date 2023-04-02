@@ -90,4 +90,14 @@ set tabstop=2
 set softtabstop=2
 " when indenting with '>', use 2 spaces width
 set shiftwidth=2
-set relativenumber
+
+
+" Custom function to toggle between normal line number and relative line number
+function! ToggleLineNumber()
+if v:version > 703
+  set norelativenumber!
+endif
+set nonumber!
+endfunction
+
+map <leader>r :call ToggleLineNumber()<CR>
